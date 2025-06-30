@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -21,6 +23,23 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('Inter-SemiBold.woff2') format('woff2'),
+         url('Inter-SemiBold.woff') format('woff');
+         font-weight: medium;
+         font-style: normal;
+         font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('Inter-Bold.woff2') format('woff2'),
+         url('Inter-Bold.woff') format('woff');
+         font-weight: bold;
+         font-style: normal;
+         font-display: swap;
+}
 
 :root {
     --body-color: hsl(0, 0%, 96%); 
@@ -29,13 +48,19 @@
     --accent-color: black; 
     --info-container-color:hsla(0, 0%, 89%, 0.801);
 }
-body { 
-    margin: 0; 
-    padding: 0; 
+html body {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+
+}
+body { 
     background-color: var(--body-color);
-    width: 100vw;
     overflow-x: hidden;
+}
+
+body strong {
+    font-family: 'Inter-Bold';
 }
 
 /*styling the nav bar */
@@ -43,7 +68,7 @@ body {
     width: 100%; 
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
 
 .nav-logo {
@@ -55,7 +80,7 @@ body {
   font-style: italic; 
 }
 .nav-links {
-    margin: 0 15px;
+    margin-right: 10px;
 }
 .nav-links ul {
     display: flex;
@@ -124,8 +149,6 @@ body {
 /*styling the main section */
 /* Background image */
 .Background-image-container  {
-    margin: 0; 
-    padding: 0; 
     width: 100%;
     height:auto;
     max-height: 600px;
@@ -215,12 +238,13 @@ body {
  
 }
 .about-us-text-container {
-    flex: 1;
-    min-width: 500px; 
+    flex: 1; 
     font-family: 'Inter';
     line-height: 1.6;
     word-spacing: 1px;
     font-size: 0.925rem;
+    min-width: 250px;
+    flex-basis: 350px;
     padding: 5px 20px;
     text-align: justify;
 }
@@ -250,7 +274,7 @@ body {
     border: 1px solid blue;
 }
 .services-text-container {
-    min-width: 500px;
+    min-width: 0;
     font-family: 'Inter';
     line-height: 1.6;
     word-spacing: 1px;
@@ -279,14 +303,18 @@ body {
 /* Unique Features*/ 
 .unique-features-container {
     width: 100%;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center; 
     gap: 20px;
     margin: 20px 0;
+    padding: 20px 0px;
+    background-color: hsl(0, 0%, 80%);
+    border-radius: 25px;
 }
 .unique-text {
-    font-family: 'Inter';
+    font-family: 'Inter-SemiBold';
     font-weight: bold;
     font-size: 1.25rem;
 }
@@ -302,7 +330,7 @@ body {
    max-width: 400px;
 }
 .unique-features-wrapper div h3 { 
-    font-family: 'Roboto';
+    font-family: 'Inter-SemiBold';
     margin: 10px 0;
     text-align: center;
 }
@@ -314,10 +342,9 @@ body {
 }
 
 /*end of unique features*/
-/* End of the styling the information secton*/
+/* End of styling information secton*/
 
 /*testimonilas section*/
-
 .testimonials-section-container {
     width: 100%;
     margin: 70px 0px;
@@ -446,10 +473,12 @@ body {
 }
 .contact-continer {
     height: 300px;
-    max-width: 650px;
     margin-top: 100px;
     display: flex;
-    flex-wrap: wrap;
+    max-width: 100%;
+    width: 650px;
+    box-sizing: border-box;
+    flex-flow: column wrap;
     justify-content: space-around;
     align-items: center;
     padding-top: 30px;
@@ -459,9 +488,6 @@ body {
     color: var(--body-color);
     text-align:center;
     align-self: flex-start;
-}
-.school-name {
-    font-size: 1.5rem;
 }
 .contact-number .number {
     font-size: 2rem;
@@ -537,12 +563,23 @@ body {
     border-radius: 20px;
     background-color:  hsl(218, 81%, 51%);
 }
-.home-taking-link a {
-    text-decoration: none;
-    font-family: 'Inter';
-    color: var(--body-color);
-}
+
 .home-taking-link a:hover {
     scale: 1.05;
     box-shadow: 1px 5px 57px 1px hsla(0, 0%, 0%, 0.179);
+}
+@media (max-width: 600px) {
+    .footer-ending-container {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .services-text-container,
+    .about-us-text-container {
+        font-size: 0.9rem;
+    
+    }
 }

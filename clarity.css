@@ -8,8 +8,8 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('Inter-Regular.woff2') format('woff2'),
-        url('Inter-Regular.woff') format('woff');
+    src: url('./Used-Fonts/Inter-Regular.woff2') format('woff2'),
+        url('./Used-Fonts/Inter-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal; 
     font-display: swap; 
@@ -17,16 +17,16 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('Roboto-Regular.woff2') format('woff2'),
-        url('Roboto-Regular.woff') format('woff');
+    src: url('./Used-Fonts/Roboto-Regular.woff2') format('woff2'),
+        url('./Used-Fonts/Roboto-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Inter-SemiBold';
-    src: url('Inter-SemiBold.woff2') format('woff2'),
-         url('Inter-SemiBold.woff') format('woff');
+    src: url('./Used-Fonts/Inter-SemiBold.woff2') format('woff2'),
+         url('./Used-Fonts/Inter-SemiBold.woff') format('woff');
          font-weight: medium;
          font-style: normal;
          font-display: swap;
@@ -34,8 +34,8 @@
 
 @font-face {
     font-family: 'Inter-Bold';
-    src: url('Inter-Bold.woff2') format('woff2'),
-         url('Inter-Bold.woff') format('woff');
+    src: url('./Used-Fonts/Inter-Bold.woff2') format('woff2'),
+         url('./Used-Fonts/Inter-Bold.woff') format('woff');
          font-weight: bold;
          font-style: normal;
          font-display: swap;

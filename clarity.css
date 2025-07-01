@@ -580,6 +580,11 @@ body strong {
     .services-text-container,
     .about-us-text-container {
         font-size: 0.9rem;
-    
+    }
+        .unique-features-container {
+        padding-left: 5px;
+    }
+    .contact-number .number {
+        font-size: 1.25rem;
     }
 }

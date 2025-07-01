@@ -587,4 +587,11 @@ body strong {
     .contact-number .number {
         font-size: 1.25rem;
     }
+        .location-contianer {
+        padding: 3px;
+    }
+    .paragraph-contianer {
+        font-size: 0.9rem;
+    }
+}
 }

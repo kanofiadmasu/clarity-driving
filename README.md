@@ -16,7 +16,7 @@ Simple web technologies were used to build this web page.
     3. JavaScript  
 ### Deployment  
     1. Only Github was use to deploy this webpage, as the landig page is static and simple.   
-    2. Custom configoured domain name bought from Namecheap.   
+    2. Custom configured domain name bought from Namecheap.   
 ## Featues of the webpage
 
 This landing page was minimal, and responsive in design--being compatible in different sizes of computer laptops, tablets, and mobile phones. 

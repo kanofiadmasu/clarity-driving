@@ -1,5 +1,5 @@
 # Clarity Driving School
-https://claritydrivingschool.com/
+### https://claritydrivingschool.com/
 --- 
 This is a landing page I built for a Driving School in Toronto as a freelncer. The Driving school doesn't have a webpage before, reducing thier credibility and online presence. 
 

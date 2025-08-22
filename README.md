@@ -1,4 +1,5 @@
 # Clarity Driving School
+https://claritydrivingschool.com/
 --- 
 This is a landing page I built for a Driving School in Toronto as a freelncer. The Driving school doesn't have a webpage before, reducing thier credibility and online presence. 
 
@@ -15,6 +16,15 @@ Simple web technologies were used to build this web page.
     3. JavaScript  
 ### Deployment  
     1. Only Github was use to deploy this webpage, as the landig page is static and simple.   
-    2.And domain name is bought form namecheap.   
-## 
-    
+    2. Custom configoured domain name bought from Namecheap.   
+## Featues of the webpage
+
+This landing page was minimal, and responsive in design--being compatible in different sizes of computer laptops, tablets, and mobile phones. 
+
+There are five main section in this landing page. 
+1. About -- Which give information about the school
+2. Sevices -- This section gives information about the services the school offer.
+3. Testimonials -- This section shows different testimonies about the school while also providing a direct link to the school's google maps profile and also individual link for the testimonies of the people.
+4. Contact and location  -- This section provides information about the location and contact of the school.
+
+

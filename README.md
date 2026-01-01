@@ -4,7 +4,7 @@
 This is a landing page I built for a Driving School in Toronto as a freelncer. The Driving school doesn't have a webpage before, reducing thier credibility and online presence. 
 
 ## Purpose of the landing page
-This landing page, apart from providing information, it was primarily built making online presence and credibilty as a central goal. Other important things are also included, such as providing information about the school(their contact and adresss), services they offer, and also displaying testimony of previous students. 
+This landing page, apart from providing information, it was primarily built making online presence and credibilty a central goal. Other important things are also included, such as providing information about the school(their contact and adresss), services they offer, and also displaying testimony of previous students. 
 
 ## Techonolgies used 
 Simple web technologies were used to build this web page. 
